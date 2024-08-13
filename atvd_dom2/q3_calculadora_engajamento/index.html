@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Engajamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Taxa de Engajamento</h1>
+        <div class="input-group">
+            <label for="interacoes">Número de Interações:</label>
+            <input type="number" id="interacoes" placeholder="Número total de interações">
+        </div>
+        <div class="input-group">
+            <label for="visualizacoes">Número de Visualizações:</label>
+            <input type="number" id="visualizacoes" placeholder="Número total de visualizações">
+        </div>
+        <button id="calcularBtn">Calcular Taxa de Engajamento</button>
+        <div id="mensagemErro" class="oculto"></div>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

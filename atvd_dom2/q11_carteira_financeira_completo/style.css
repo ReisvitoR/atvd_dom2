@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.title-container {
+    margin-bottom: 20px; /* Espaço entre o título e a caixa */
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #d3d3d3; /* Cor cinza claro */
+    border: 2px solid black; /* Borda preta */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px;
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+    width: 800px;
+}
+
+.carteira {
+    flex: 1;
+    margin: 0 10px;
+}
+
+select {
+    width: 100%;
+    height: 200px;
+    padding: 8px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+    color: #a9a9a9;
+}

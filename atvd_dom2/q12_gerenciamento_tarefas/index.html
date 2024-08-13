@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerenciamento de Tarefas</h1>
+    <div>
+        <label for="descricaoTarefa">Descrição da Tarefa:</label>
+        <input type="text" id="descricaoTarefa" placeholder="Ex: Concluir relatório">
+    </div>
+    <button id="adicionarBtn">Adicionar Tarefa</button>
+    <table id="tabelaTarefas">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Descrição</th>
+                <th>Data de Início</th>
+                <th>Data de Conclusão</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Linhas da tabela serão adicionadas aqui -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

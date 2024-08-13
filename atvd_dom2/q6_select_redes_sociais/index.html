@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecione suas Redes Sociais Favoritas</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Selecione suas Redes Sociais Favoritas</h1>
+
+        <div> 
+            <input type="checkbox" id="facebook" name="redesSociais" value="Facebook"> 
+            <label for="facebook">Facebook</label> 
+        </div> 
+        <div>
+            <input type="checkbox" id="twitter" name="redesSociais" value="Twitter"> 
+            <label for="twitter">Twitter</label> 
+        </div> 
+        <div> 
+            <input type="checkbox" id="instagram" name="redesSociais" value="Instagram"> 
+            <label for="instagram">Instagram</label> 
+        </div> 
+        <div> 
+            <input type="checkbox" id="linkedin" name="redesSociais" value="LinkedIn"> 
+            <label for="linkedin">LinkedIn</label> 
+        </div> 
+        <div> 
+            <input type="checkbox" id="tiktok" name="redesSociais" value="TikTok"> 
+            <label for="tiktok">TikTok</label> 
+        </div> 
+
+        <div class="oculto" id="mensagemErro">Por favor, selecione pelo menos uma rede social.</div> 
+        <div id="redesSelecionadas"></div> 
+        <button type="button" id="enviarBtn">Enviar Seleção</button> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mover Ativos Financeiros</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Mover Ativos Financeiros entre Carteiras</h1>
+    </div>
+    <div class="container">
+        <div class="carteira">
+            <label for="ativosDisponiveis">Ativos Disponíveis:</label>
+            <select id="ativosDisponiveis" size="10" multiple></select>
+        </div>
+        <div class="buttons">
+            <button id="moverParaDireitaBtn" disabled>&gt;</button>
+            <button id="moverParaEsquerdaBtn" disabled>&lt;</button>
+        </div>
+        <div class="carteira">
+            <label for="carteiraInvestimentos">Carteira de Investimentos:</label>
+            <select id="carteiraInvestimentos" size="10" multiple></select>
+        </div>
+    </div>
+</body>
+</html>
